@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-// import './style.css';
 
 const Home = () => {
     return (
@@ -8,12 +6,15 @@ const Home = () => {
             <div className="title">
                 <h1>
                     <h4 className="subtitle">Welcome, I am</h4>
-                    <h1>Chel<span id="freitas">Freitas</span></h1>
-                    <h4 className="subtitle">Full Stack Web Developer</h4>
+                    <h1>Chel Freitas</h1>
+                    <h2 className="subtitle">Full Stack Web Developer</h2>
+                    <p className="py-4 max-w-md">
+                        I have experience with teaching science, computer graphic arts, and introductory coding.
+                        I enjoy working with front end development the most.
+                    </p>
                 </h1>
-                <Link to="/about">
-                    <button>More Info</button>
-                </Link>
+                {/* Later a tag */}
+                <button>More Info</button>
             </div>
             <div className="picture">
                 <img src={`${process.env.PUBLIC_URL}/assets/images/picture-of-me.png`}

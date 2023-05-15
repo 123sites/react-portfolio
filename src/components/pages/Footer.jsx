@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+
 
 const Footer = () => {
     return (
@@ -7,7 +7,7 @@ const Footer = () => {
             <a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/chel-freitas-web-developer">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="">
+            <a target="_blank" rel="noopener noreferrer" href="#">
                 <i class="fab fa-github"></i>
             </a>
             <a target="_blank" rel="noopener noreferrer" href="mailto:">
@@ -16,9 +16,9 @@ const Footer = () => {
             <a target="_blank" rel="noopener noreferrer" href="/assets/images/.pdf">
                 <i class="fas fa-file-pdf"></i>
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="">
+            <a target="_blank" rel="noopener noreferrer" href="#">
                 <i class="fas fa-phone-volume"></i>
-            </a><p>Copyright © Chel Freitas</p>
+            </a><p>2023 Copyright © Chel Freitas</p>
         </footer>
     )
 }
