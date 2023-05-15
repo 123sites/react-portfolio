@@ -191,6 +191,12 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
+    if (currentPage === 'Footer') {
+      return <Footer />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
     if (currentPage === 'Ytc') {
       return <Ytc />;
     }
