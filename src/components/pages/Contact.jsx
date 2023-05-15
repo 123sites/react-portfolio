@@ -34,7 +34,7 @@ const Contact = () => {
     <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
       <div className="pb-8">
         <p className="text-4xl font-bold inline border-b-4">
-          Contact me
+          Contact:
         </p>
     <p className="py-6">To contact me, simply submit this form:</p>
     </div>

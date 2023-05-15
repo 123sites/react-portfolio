@@ -176,8 +176,6 @@ import Resume from './pages/Resume';
 
 // export default PortfolioContainer;
 
-
-
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
