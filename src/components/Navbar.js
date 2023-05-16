@@ -5,7 +5,7 @@ import React from 'react';
 
 // https://v1.tailwindcss.com/components/navigation
 
-export default function Navbar() {
+export default function Navbar({handlePageChange}) {
   return (
  <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
   <div className="flex items-center flex-shrink-0 text-white mr-6">
@@ -19,25 +19,22 @@ export default function Navbar() {
   </div>
   <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
     <div className="text-sm lg:flex-grow">
-      <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      <a href="#about" onClick={handlePageChange("About")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         About
       </a>
-      <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      <a href="#portfolio" onClick={handlePageChange("Portfolio")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         Portfolio
       </a>
-      <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-        Video: Why Hire Me? 
-      </a>
-      <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+      <a href="#ytc" onClick={handlePageChange("Ytc")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
         YouTube Channel
       </a>
-      <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+      <a href="#contact" onClick={handlePageChange("Contact")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
         Contact
       </a>
-      <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+      <a href="#resume" onClick={handlePageChange("Resume")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
         Resume
       </a>
-      <a href="#responsive-header" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+      <a href="#home" onClick={handlePageChange("Home")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
         Home
       </a>
     </div>
