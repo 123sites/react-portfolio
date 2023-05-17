@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = ({handlePageChange}) => {
+const Home = ({ handlePageChange }) => {
     return (
         <div
             name="home"
