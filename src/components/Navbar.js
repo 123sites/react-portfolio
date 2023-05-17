@@ -19,6 +19,9 @@ export default function Navbar({handlePageChange}) {
   </div>
   <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
     <div className="text-sm lg:flex-grow">
+    <a href="#home" onClick={handlePageChange("Home")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+        Home
+      </a>
       <a href="#about" onClick={handlePageChange("About")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         About
       </a>
@@ -33,9 +36,6 @@ export default function Navbar({handlePageChange}) {
       </a>
       <a href="#resume" onClick={handlePageChange("Resume")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
         Resume
-      </a>
-      <a href="#home" onClick={handlePageChange("Home")} className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-        Home
       </a>
     </div>
     {/* <div>

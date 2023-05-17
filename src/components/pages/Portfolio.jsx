@@ -11,31 +11,63 @@ import React from "react";
 // import command-line-applicaton from "";
 // import quick-code-quiz from "";
 
-
-
 const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
             src: `${process.env.PUBLIC_URL}assets/images/Main-Page.png`,
-            link: 'https://fathomless-gorge-67746.herokuapp.com/',
-            repo: 'https://github.com/123sites/Ballot-Box',
+            link: `https://fathomless-gorge-67746.herokuapp.com/`,
+            repo: `https://github.com/123sites/Ballot-Box`,
             title: 'Ballot-Box',
             description: `Ballot-Box is a polling tool to use for a democratic means of reaching a majority agreed solution.  This is a
-          one-stop solution for real-time polliing.  Easily create custom polls, share them globally, and gain instant insights.`,
+            one-stop solution for real-time polliing.  Easily create custom polls, share them globally, and gain instant insights.`,
             features: `Features: JavaScript, Node, Express, Handlebars, MySQL, Chartjs,
-          Sequelize, Mobile responsive, and has a Coolors color palette!`
+            Sequelize, Mobile responsive, and has a Coolors color palette!`
         },
         {
             id: 2,
+            src: `${process.env.PUBLIC_URL}/assets/img/Mood%20Booster.gif`,
+            link: `https://github.com/123sites/Mood-Booster`,
+            repo: `https://github.com/123sites/Mood-Booster`,
+            title: `Mood Booster`,
+            description: `Mood Booster is an App to help give you that needed boost in your mood.  The App gives you the opportunity 
+            to choose either a joke or meme to help you get through the day!`,
+            features: `Features: HTML, CSS, JavaScript, jQuery, API fetches, Mobile responsive.`
+        },
+        {
+            id: 3,
+            src: `${process.env.PUBLIC_URL}assets/images/Command-Line-App-Screenshot.png`,
+            link: `https://github.com/123sites/Command-Line-Application`,
+            repo: `https://github.com/123sites/Command-Line-Application`,
+            title: `Command-Line-Application`,
+            description: `This is an application that helps a business owner to view and manage the departments, roles, and employees in their company. 
+            It helps them to organize and plan their business.`,
+            features: `Features: Node.js JavaScript, Inquirer, MySql, Figlet and Chalk.`
+        }, {
+            id: 4,
+            src: `${process.env.PUBLIC_URL}https://github.com/123sites/Note-App/blob/main/public/assets/images/Notes%20Written.png`,
+            link: `https://vast-mountain-72625.herokuapp.com/notes`,
+            repo: `https://github.com/123sites/Note-App/tree/maing`,
+            title: `Note App`,
+            description: `This is an application for someone to take notes, regarding what they need to do.  It allows you to add, update, and
+            delete your items kept in local storage.`,
+            features: `Features: JavaScript, CSS, Node.js, npm, Express, Heroku, Mobile responsive.`
+        }, {
+            id: 5,
+            src: `${process.env.PUBLIC_URL}/assets/images/Updated-Laptop-View.png`,
+            link: `https://github.com/123sites/Weather-Outlook`,
+            repo: `https://github.com/123sites/Weather-Outlook`,
+            title: `Weather Outlook`,
+            description: `This is a weather app that provides current and future weather outlook for different cities.`,
+            features: `Features: HTML, CSS, JavaScript, jQuery, API, Bootstrap, Mobile responsive.`
+        }, {
+            id: 6,
             src: ``,
-            link: '',
-            repo: ``,
-            title: '',
-            description: `Ballot-Box is a polling tool to use for a democratic means of reaching a majority agreed solution.  This is a
-          one-stop solution for real-time polliing.  Easily create custom polls, share them globally, and gain instant insights.`,
-            features: `Features: JavaScript, Node, Express, Handlebars, MySQL, Chartjs,
-          Sequelize, Mobile responsive, and has a Coolors color palette!`
+            link: `https://github.com/123sites/Quick-Code-Quiz`,
+            repo: `https://github.com/123sites/Quick-Code-Quiz`,
+            title: `Quick-Code-Quiz`,
+            description: `This is a timed quiz that uses JavaScript fundamentals and stores high scores.`,
+            features: `Features: HTML, CSS, JavaScript, jQuery, Bootstrap, Mobile responsive`
         },
     ];
 
@@ -46,17 +78,16 @@ const Portfolio = () => {
                     <div className="" key={project.id}>
                         <div className="">
                             <div className="imageBox">
-                                <img src={project.src} className="card-img-top border-bottom"
-                                    alt="Screenshot of Ballot-Box" />
+                                <img src={project.src} className="card-img-top border-bottom" />
                             </div>
                             <div className="">
                                 <h3>{project.title}</h3>
                                 <p className="">
-                                   {project.description}
+                                    {project.description}
                                 </p>
                                 <p className="">
                                     <small>
-                                       {project.features}
+                                        {project.features}
                                     </small>
                                 </p>
 
@@ -70,137 +101,9 @@ const Portfolio = () => {
                         </div>
                     </div>
                 ))}
-
-
-                <div className="">
-                    <div className="">
-                        <div className="imageBox">
-                            <img src={`${process.env.PUBLIC_URL}/assets/img/Mood%20Booster.gif`} className=""
-                                alt="Screenshot of Mood Booster" />
-                        </div>
-                        <div className="">
-                            <h3>Mood Booster</h3>
-                            <p className="">
-                                ...
-                            </p>
-                            <p className="">
-                                <small>
-                                    Features: HTML, CSS, JavaScript, jQuery, API fetches, Mobile responsive
-                                </small>
-                            </p>
-                            <div className="gitHubLinks position-absolute">
-                                <a href="https://github.com/123sites/Mood-Booster" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fas fa-laptop-code"></i></a>
-                                <a href="https://github.com/123sites/Mood-Booster" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div >
-
-                <div className="">
-                    <div className="">
-                        <img src={`${process.env.PUBLIC_URL}assets/images/Command-Line-App-Screenshot.png`} className=""
-                            alt="Screenshot of Command-Line-Application" />
-                        <div className="">
-                            <h3>Command-Line-Application</h3>
-                            <p className="">
-                                <small>
-                                    Features: Node.js JavaScript, Inquirer, MySql, Figlet and Chalk
-                                </small>
-                            </p>
-                            <div className="gitHubLinks position-absolute">
-                                <a href="" className="" target="_blank" rel="noreferrer">
-                                    <i className="fas fa-laptop-code"></i></a>
-                                <a href="" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="">
-                    <div className="card text-center h-100">
-                        <div className="imageBox">
-                            <img src={`${process.env.PUBLIC_URL}https://github.com/123sites/Ballot-Box/blob/main/public/images/Main-Page.png`} className="card-img-top border-bottom"
-                                alt="Screenshot of Note App" />
-                        </div>
-                        <div className="card-body mb-5 pl-0">
-                            <h3>Note App</h3>
-                            <p className="card-text">
-                                This is an application for someone to take notes, regarding what they need to do.  It allows you to add, update, and
-                                delete your items kept in local storage.
-                            </p>
-                            <p className="card-text">
-                                <small>
-                                    Features: JavaScript, CSS, Node.js, npm, Express, Heroku, Mobile responsive
-                                </small>
-                            </p>
-                            <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
-                                <a href="https://vast-mountain-72625.herokuapp.com/notes" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fas fa-laptop-code"></i></a>
-                                <a href="https://github.com/123sites/Note-App/tree/maing" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="">
-                    <div className="">
-                        <div className="imageBox">
-                            <img src={`${process.env.PUBLIC_URL}/assets/images/Updated-Laptop-View.png`} className=""
-                                alt="Screenshot of Weather Outlook" />
-                        </div>
-                        <div className="">
-                            <h3>Weather Outlook</h3>
-                            <p className="">
-                                This is a weather app that provides current and future weather outlook for different cities.
-                            </p>
-                            <p className="">
-                                <small>
-                                    Features: HTML, CSS, JavaScript, jQuery, API, Bootstrap, Mobile responsive
-                                </small>
-                            </p>
-                            <div className="gitHubLinks position-absolute">
-                                <a href="https://github.com/123sites/Weather-Outlook" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fas fa-laptop-code"></i></a>
-                                <a href="https://github.com/123sites/Weather-Outlook" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="">
-                    <div className="">
-                        <div className="imageBox">
-                            <img src={`${process.env.PUBLIC_URL}/Image-at-Start.png`} className=""
-                                alt="Screenshot of Quick Code Quiz" />
-                        </div>
-                        <div className="">
-                            <h3>Quick Code Quiz</h3>
-                            <p className="">
-                                This is a timed quiz that uses JavaScript fundamentals and stores high scores.
-                            </p>
-                            <p className="">
-                                <small>
-                                    Features: HTML, CSS, JavaScript, jQuery, Bootstrap, Mobile responsive
-                                </small>
-                            </p>
-                            <div className="gitHubLinks position-absolute">
-                                <a href="https://github.com/123sites/Quick-Code-Quiz" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fas fa-laptop-code"></i></a>
-                                <a href="https://github.com/123sites/Quick-Code-Quiz" target="_blank" className="btn" rel="noreferrer">
-                                    <i className="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     )
 }
-
 export default Portfolio
 
