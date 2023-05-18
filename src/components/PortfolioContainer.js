@@ -12,9 +12,10 @@ import Resume from './pages/Resume';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
   const handlePageChange = (page) => setCurrentPage(page);
+  const changePage = (page) => setCurrentPage(page);
   const renderPage = () => {
     if (currentPage === 'Home') {
-      return <Home />;
+      return <Home handlePageChange = {handlePageChange} />;
     }
     if (currentPage === 'About') {
       return <About />;

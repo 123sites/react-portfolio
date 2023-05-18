@@ -15,7 +15,7 @@ export default function About() {
                             I am a web developer, who likes to create beautiful user-friendly websites!
                         </p>
                         <p className="text-xl">
-                            I like to design websites that have a Coolors color palette, and I like to use Bootstrap and Tailwind CSS for styling. <br> </br>
+                            I like to design websites that have a Coolors color palette, and I like to use Bootstrap and Tailwind CSS for styling. <br />
                             However, I am open to learning new technologies and frameworks.  An attractive and appealing websites means more that customers will want to use and come back to your website!
                         </p>
                     </div>

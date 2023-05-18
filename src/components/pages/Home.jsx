@@ -18,7 +18,7 @@ const Home = ({ handlePageChange }) => {
                         </p>
                     </h1>
                     {/* Later a-tag */}
-                    <a href="#portfolio" onClick={handlePageChange("Portfolio")}>Portfolio</a>
+                    <a href="#portfolio" onClick={()=>handlePageChange("Portfolio")}>Portfolio</a>
                 </div>
                 <div className="picture rounded-2xl mx-auto w-2/3 md:w-full">
                     <img src={`${process.env.PUBLIC_URL}/assets/images/picture-of-me.png`}

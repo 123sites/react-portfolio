@@ -1,5 +1,5 @@
 // import Navbar from "./components/Navbar";
-// import PortfolioContainer from "./components/PortfolioContainer"
+import PortfolioContainer from "./components/PortfolioContainer"
 
 // import Home from "./components/pages/Home";
 // import About from "./components/pages/About";
@@ -11,20 +11,7 @@
 
 function App() {
   return (
-    <div>
-      Hello World!
-      {/* <Navbar /> */}
-      {/* <PortfolioContainer /> */}
-
-      {/* <Home />
-      <About />
-      <Portfolio />
-      <Contact />
-      <Ytc />
-      <Resume />
-      <Footer /> */}
-
-    </div>
+     <PortfolioContainer />
   );
 }
 

@@ -3,7 +3,6 @@ import React from 'react';
 // import Form from '@tailwindcss/forms';
 // import Form from 'react-bootstrap/Form';
 // import Button from 'react-bootstrap/Button'; 
-// import React from "react";
 
 // Function for form reset
 function handleSubmit(e) {
