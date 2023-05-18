@@ -13,7 +13,6 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
-  font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
   /* margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', "Inter", 'Nunito Sans',
     sans-serif; */
@@ -22,6 +21,12 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../public/blueWithCircles.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
 }
 
 code {
@@ -40,3 +45,7 @@ code {
 /* .btn{
   @apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer;
 } */ 
+
+.nav-link:hover{
+  color:blue;
+}

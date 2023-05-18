@@ -15,24 +15,24 @@ export default function PortfolioContainer() {
   const changePage = (page) => setCurrentPage(page);
   const renderPage = () => {
     if (currentPage === 'Home') {
-      return <Home handlePageChange = {handlePageChange} />;
+      return <Home handlePageChange = {handlePageChange} currentPage='home' />;
     }
     if (currentPage === 'About') {
-      return <About />;
+      return <About handlePageChange = {handlePageChange} currentPage='about'/>;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio handlePageChange = {handlePageChange} currentPage='portfolio'/>;
     }
     if (currentPage === 'Footer') {
-      return <Footer />;
+      return <Footer handlePageChange = {handlePageChange} currentPage='footer'/>;
     }
     if (currentPage === 'Resume') {
-      return <Resume />;
+      return <Resume handlePageChange = {handlePageChange} currentPage='resume'/>;
     }
     if (currentPage === 'Ytc') {
-      return <Ytc />;
+      return <Ytc handlePageChange = {handlePageChange} currentPage='ytc'/>;
     }
-    return <Contact />;
+    return <Contact handlePageChange = {handlePageChange} currentPage='contact'/>;
   };
 
   return (
