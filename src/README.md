@@ -61,9 +61,7 @@ The MIT license is in the GitHub repository. Click to link to view it:
 ## Features ✍
 
 - ESLint
-- Heroku
 - Express
-- Chart.js
 - Sequelize
 - Tailwind CSS
 - Coolors color palette

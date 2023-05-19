@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 // import Form from '@tailwindcss/forms';
 // import Form from 'react-bootstrap/Form';
 // import Button from 'react-bootstrap/Button'; 
+
+
+
 
 // Function for form reset
 function handleSubmit(e) {
@@ -24,9 +27,10 @@ function handleSubmit(e) {
 // components input: https://react.dev/reference/react-dom/components/input
 // tailwindcss forms: https://v1.tailwindcss.com/components/forms#custom-select 
 
-// See 20 #15 React-Forms
+// See 20 #15 React-Forms & Mini-Project: components to BucketForm.js
 
-const Contact = () => {
+const Contact = (props) => {
+  const [input, setInput] = useState('');
   return (
     <div
       name="contact"
