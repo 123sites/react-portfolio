@@ -47,11 +47,8 @@ This can be used for by anyone looking to hire a web developer.
 
 ## Credits & Questions 👈
 
-
-
-
-
-
+For this Challenge, I utilized code from the 20-PWA React Bootcamp folder and 
+I reached-out to get help from a tutor, if I needed help.
 
 ## License 📝
 
@@ -65,4 +62,5 @@ The MIT license is in the GitHub repository. Click to link to view it:
 - Sequelize
 - Tailwind CSS
 - Coolors color palette
+- I created my own logo design
 - Polished UI that's responsive
