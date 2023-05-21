@@ -4,10 +4,10 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className="text-center text-stone-100">
-            <a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/chel-freitas-web-developer">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chelwebdeveloper/">
                 <i className="fab fa-linkedin m-2"></i>
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="#">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/123sites?tab=repositories">
                 <i className="fab fa-github m-2"></i>
             </a>
             <a target="_blank" rel="noopener noreferrer" href="mailto:">
