@@ -14,11 +14,10 @@ const Home = ({ handlePageChange }) => {
             className="h-screen w-full"
         >
             <div className="max-w-screen-sm mx-auto flex flex-col items-center justify-center text-center pt-10 px-4 py-2 md:flex-col tracking-widest">
-                <div className="small-screen">
-                        <h1 class="text-6xl sm:text4x1 text-orange-300">Chel Freitas</h1>
-                        <h2 className="subtitle text-5xl sm:text-3xl font-bold text-white mt-3">Welcome!</h2>
-                        <h2 className="subtitle text-2xl sm:text-3xl font-bold text-white mt-2 mb-3">I am a Full Stack Web Developer</h2>
-                        <p className= "text-2xl text-white sm:text2xl mb-5">
+                <div>
+                        <h1 className="subtitle sm:text-6xl font-bold text-stone-100 mt-3">Welcome!</h1>
+                        <h2 className="subtitle sm:text-3xl font-bold text-stone-100 mt-2 mb-3">I am a Full Stack Web Developer</h2>
+                        <p className= "text-2xl text-stone-100 sm:text2xl mb-5">
                             I have experience with teaching science, computer graphic arts, and introductory coding.
                             I enjoy working with front end development the most.
                         </p>

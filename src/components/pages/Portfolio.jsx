@@ -4,18 +4,18 @@
 import React from "react";
 
 // import the below from images....all are .png
-// import ballot-box from "";
+// import Ballot-box from "../../images/";
 // import mood-booster from "";
 // import weather-outlook from "";
 // import note-app from "";
-// import command-line-applicaton from "";
+import CommandLineApp from "../../images/Command-Line-App-Screenshot.png";
 // import quick-code-quiz from "";
 
 const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: `${process.env.PUBLIC_URL}assets/images/Main-Page.png`,
+            src: {},
             link: `https://fathomless-gorge-67746.herokuapp.com/`,
             repo: `https://github.com/123sites/Ballot-Box`,
             title: 'Ballot-Box',
@@ -36,7 +36,7 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: `${process.env.PUBLIC_URL}assets/images/Command-Line-App-Screenshot.png`,
+            src: CommandLineApp,
             link: `https://github.com/123sites/Command-Line-Application`,
             repo: `https://github.com/123sites/Command-Line-Application`,
             title: `Command-Line-Application`,
@@ -47,7 +47,7 @@ const Portfolio = () => {
             id: 4,
             src: `${process.env.PUBLIC_URL}https://github.com/123sites/Note-App/blob/main/public/assets/images/Notes%20Written.png`,
             link: `https://vast-mountain-72625.herokuapp.com/notes`,
-            repo: `https://github.com/123sites/Note-App/tree/maing`,
+            repo: `https://github.com/123sites/Note-App`,
             title: `Note App`,
             description: `This is an application for someone to take notes, regarding what they need to do.  It allows you to add, update, and
             delete your items kept in local storage.`,
@@ -55,7 +55,7 @@ const Portfolio = () => {
         }, {
             id: 5,
             src: `${process.env.PUBLIC_URL}/assets/images/Updated-Laptop-View.png`,
-            link: `https://github.com/123sites/Weather-Outlook`,
+            link: `https://123sites.github.io/Weather-Outlook-For-Travel/`,
             repo: `https://github.com/123sites/Weather-Outlook`,
             title: `Weather Outlook`,
             description: `This is a weather app that provides current and future weather outlook for different cities.`,
@@ -63,7 +63,7 @@ const Portfolio = () => {
         }, {
             id: 6,
             src: ``,
-            link: `https://github.com/123sites/Quick-Code-Quiz`,
+            link: `https://123sites.github.io/Quick-Code-Quiz/`,
             repo: `https://github.com/123sites/Quick-Code-Quiz`,
             title: `Quick-Code-Quiz`,
             description: `This is a timed quiz that uses JavaScript fundamentals and stores high scores.`,
@@ -72,28 +72,28 @@ const Portfolio = () => {
     ];
 
     return (
-        <div className="container" id="portfolio">
-            <div className="row justify-description-center">
+        <div className="container mx-auto" id="portfolio">
+            <div className="row justify-description-center text-stone-100 tracking-widest mt-5 ml-10 cursor-pointer">
                 {portfolios.map(project => (
-                    <div className="" key={project.id}>
-                        <div className="">
-                            <div className="imageBox">
+                    <div className="mt-10 w-3/4 mx-auto bg-white" key={project.id}>
+                        <div className="projectContent flex text-blue-900 font-bold">
+                            <div className="imageBox mr-5">
                                 <img src={project.src} className="card-img-top border-bottom" />
                             </div>
-                            <div className="">
-                                <h3>{project.title}</h3>
-                                <p className="">
+                            <div className="projectDescription pt-7 text-lg bg-white">
+                                <h3 className="mb-3">{project.title}</h3>
+                                <p className="mb-3">
                                     {project.description}
                                 </p>
-                                <p className="">
+                                <p className="text-lg">
                                     <small>
                                         {project.features}
                                     </small>
                                 </p>
 
-                                <div className="gitHubLinks position-absolute">
+                                <div className="gitHubLinks position-absolute text-lg">
                                     <a href={project.link} target="_blank" className="btn" rel="noreferrer">
-                                        <i className="fas fa-laptop-code"></i></a>
+                                        <i className="fas fa-laptop-code "></i></a>
                                     <a href={project.repo} target="_blank" className="btn" rel="noreferrer">
                                         <i className="fab fa-github"></i></a>
                                 </div>
