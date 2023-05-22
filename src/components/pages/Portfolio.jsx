@@ -4,10 +4,10 @@
 import React from "react";
 
 // import the below from images....all are .png
-// import Ballot-box from "../../images/";
+import BallotBox from "../../images/Main-Page.png";
 // import mood-booster from "";
-// import weather-outlook from "";
-// import note-app from "";
+import weatherOutlook from "../../images/weatherImage.png";
+import NoteApp from "../../images/NotesWritten.png";
 import CommandLineApp from "../../images/Command-Line-App-Screenshot.png";
 // import quick-code-quiz from "";
 
@@ -15,12 +15,13 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: {},
+            src: BallotBox,
             link: `https://fathomless-gorge-67746.herokuapp.com/`,
             repo: `https://github.com/123sites/Ballot-Box`,
             title: 'Ballot-Box',
             description: `Ballot-Box is a polling tool to use for a democratic means of reaching a majority agreed solution.  This is a
-            one-stop solution for real-time polliing.  Easily create custom polls, share them globally, and gain instant insights.`,
+            one-stop solution for real-time polliing.  Easily create custom polls, share them globally, and gain instant insights. Click 
+            the computer image below to see the application live!`,
             features: `Features: JavaScript, Node, Express, Handlebars, MySQL, Chartjs,
             Sequelize, Mobile responsive, and has a Coolors color palette!`
         },
@@ -45,17 +46,17 @@ const Portfolio = () => {
             features: `Features: Node.js JavaScript, Inquirer, MySql, Figlet and Chalk.`
         }, {
             id: 4,
-            src: `${process.env.PUBLIC_URL}https://github.com/123sites/Note-App/blob/main/public/assets/images/Notes%20Written.png`,
+            src: NoteApp,
             link: `https://vast-mountain-72625.herokuapp.com/notes`,
             repo: `https://github.com/123sites/Note-App`,
             title: `Note App`,
             description: `This is an application for someone to take notes, regarding what they need to do.  It allows you to add, update, and
-            delete your items kept in local storage.`,
+            delete your items kept in local storage. Click the computer image below to see the application live!`,
             features: `Features: JavaScript, CSS, Node.js, npm, Express, Heroku, Mobile responsive.`
         }, {
             id: 5,
-            src: `${process.env.PUBLIC_URL}/assets/images/Updated-Laptop-View.png`,
-            link: `https://123sites.github.io/Weather-Outlook-For-Travel/`,
+            src: weatherOutlook,
+            link: `https://123sites.github.io/Weather-Outlook/`,
             repo: `https://github.com/123sites/Weather-Outlook`,
             title: `Weather Outlook`,
             description: `This is a weather app that provides current and future weather outlook for different cities.`,
@@ -75,7 +76,7 @@ const Portfolio = () => {
         <div className="container mx-auto" id="portfolio">
             <div className="row justify-description-center text-stone-100 tracking-widest mt-5 ml-10 cursor-pointer">
                 {portfolios.map(project => (
-                    <div className="mt-10 w-3/4 mx-auto bg-white" key={project.id}>
+                    <div className="mt-10 w-3/4 flex-row mx-auto bg-white" key={project.id}>
                         <div className="projectContent flex text-blue-900 font-bold">
                             <div className="imageBox mr-5">
                                 <img src={project.src} className="card-img-top border-bottom" />
