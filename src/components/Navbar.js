@@ -52,7 +52,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
               onClick={() => handlePageChange("About")}
               className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5"
             >
-              About
+              About Me
             </a>
           )}
           {currentPage !== "Portfolio" && (

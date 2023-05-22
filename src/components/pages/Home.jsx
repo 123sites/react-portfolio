@@ -26,7 +26,7 @@ const Home = ({ handlePageChange }) => {
                     <a href="#portfolio" onClick={()=>handlePageChange("Portfolio")}>Portfolio</a>
                     </div>
                 </div>
-                <div className="picture rounded-xl mx-auto w-2/3 md:w-full shadow-2xl mt-5">
+                <div className="picture rounded-xl mx-auto w-2/3 shadow-2xl mt-5">
                     <img src={Avatar}
                         alt="Me"
                     />
