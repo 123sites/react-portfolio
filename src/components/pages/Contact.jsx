@@ -36,12 +36,12 @@ const Contact = (props) => {
       name="contact"
       className="contact w-full h-screen text-stone-100 tracking-widest"
     >
-      <div className="flex flex-col p-1 justify-center max-w-screen-lg mx-auto h-full">
+      <div className="flex flex-col p-1 justify-center max-w-screen-xl mx-auto h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4">
+          <p className="text-center text-4xl font-bold mb-5">
             Contact:
           </p>
-          <p className="py-6">To contact me, simply submit this form:</p>
+          <p className="text-center">To contact me, simply submit this form:</p>
         </div>
 
         <div className="flex justify-center items-center">
