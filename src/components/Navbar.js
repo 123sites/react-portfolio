@@ -37,15 +37,6 @@ export default function Navbar({ handlePageChange, currentPage }) {
       </div>
       <div className="w-full blockn lg:flex lg:items-center lg:w-auto cursor-pointer">
         <div className="text-lg lg:flex-grow">
-          {currentPage !== "Home" && (
-            <a
-              href="#home"
-              onClick={() => handlePageChange("Home")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5"
-            >
-              Home
-            </a>
-          )}
           {currentPage !== "About" && (
             <a
               href="#about"

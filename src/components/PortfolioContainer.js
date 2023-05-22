@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Navbar from './Navbar';
 // import tailwind.css from 'tailwind.css';
-import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -10,13 +9,10 @@ import Ytc from './pages/Ytc';
 import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
   const handlePageChange = (page) => setCurrentPage(page);
   const changePage = (page) => setCurrentPage(page);
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home handlePageChange = {handlePageChange} currentPage='home' />;
-    }
     if (currentPage === 'About') {
       return <About handlePageChange = {handlePageChange} currentPage='about'/>;
     }
