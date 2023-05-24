@@ -35,13 +35,13 @@ export default function Navbar({ handlePageChange, currentPage }) {
           </div>
         </div>
       </div>
-      <div className="w-full blockn lg:flex lg:items-center lg:w-auto cursor-pointer">
+      <div className="w-full lg:items-center lg:w-auto cursor-pointer">
         <div className="text-lg lg:flex-grow">
           {currentPage !== "About" && (
             <a
               href="#about"
               onClick={() => handlePageChange("About")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5"
+              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
             >
               About Me
             </a>
@@ -50,7 +50,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             <a
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5"
+              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
             >
               Portfolio
             </a>
@@ -59,7 +59,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             <a
               href="#ytc"
               onClick={() => handlePageChange("Ytc")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5"
+              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
             >
               My YouTube Channel
             </a>
@@ -68,7 +68,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             <a
               href="#contact"
               onClick={() => handlePageChange("Contact")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5"
+              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
             >
               Contact
             </a>
@@ -77,7 +77,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             <a
               href="#resume"
               onClick={() => handlePageChange("Resume")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5"
+              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
             >
               Resume
             </a>

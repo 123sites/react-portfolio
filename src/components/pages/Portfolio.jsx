@@ -20,7 +20,7 @@ const Portfolio = () => {
             repo: `https://github.com/123sites/Ballot-Box`,
             title: 'Ballot-Box',
             description: `Ballot-Box is a polling tool to use for a democratic means of reaching a majority agreed solution.  This is a
-            one-stop solution for real-time polliing.  Easily create custom polls, share them globally, and gain instant insights. Click 
+            one-stop solution for real-time polling.  Easily create custom polls, share them globally, and gain instant insights. Click 
             the computer image below to see the application live!`,
             features: `Features: JavaScript, Node, Express, Handlebars, MySQL, Chartjs,
             Sequelize, Mobile responsive, and has a Coolors color palette!`
@@ -73,16 +73,16 @@ const Portfolio = () => {
     ];
 
     return (
-        <div className="container mx-auto" id="portfolio">
-            <div className="row justify-description-center text-stone-100 tracking-widest mt-5 ml-10 cursor-pointer">
+        <div className="container flex-initial" id="portfolio">
+            <div className="row justify-description-center tracking-widest cursor-pointer">
                 {portfolios.map(project => (
-                    <div className="mt-10 w-3/4 flex-row mx-auto bg-white" key={project.id}>
-                        <div className="projectContent flex text-blue-900 font-bold">
+                    <div className="m-20 rounded-lg w-1/2 flex-row bg-stone-100" key={project.id}>
+                        <div className="projectContent flex">
                             <div className="imageBox mr-5">
                                 <img src={project.src} className="card-img-top border-bottom" />
                             </div>
-                            <div className="projectDescription pt-7 text-lg bg-white">
-                                <h3 className="mb-3">{project.title}</h3>
+                            <div className="projectDescription p-3 text-blue-800 text-lg font-bold">
+                                <h3 className="mb-3 text-orange-500">{project.title}</h3>
                                 <p className="mb-3">
                                     {project.description}
                                 </p>
@@ -92,10 +92,10 @@ const Portfolio = () => {
                                     </small>
                                 </p>
 
-                                <div className="gitHubLinks position-absolute text-lg">
-                                    <a href={project.link} target="_blank" className="btn" rel="noreferrer">
-                                        <i className="fas fa-laptop-code "></i></a>
-                                    <a href={project.repo} target="_blank" className="btn" rel="noreferrer">
+                                <div className="gitHubLinks position-absolute p-3 animate-pulse mx-2 text-center scale-150">
+                                    <a href={project.link} target="_blank" className="btn hover:bg-blue-200 active:bg-blue-200 mr-5" rel="noreferrer">
+                                        <i className="fas fa-laptop-code"></i></a>
+                                    <a href={project.repo} target="_blank" className="btn hover:bg-blue-200 active:bg-blue-200 place-content-center" rel="noreferrer">
                                         <i className="fab fa-github"></i></a>
                                 </div>
                             </div>

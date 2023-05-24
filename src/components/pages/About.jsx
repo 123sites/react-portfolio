@@ -11,34 +11,26 @@ const About = ({ handlePageChange }) => {
     return (
         <div
             name="about"
-            className="h-screen w-full "
+            className="w-full mb-5"
         >
             <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center text-center pt-10 px-1 md:flex-col tracking-widest">
                 <div>
-                        <h1 className="subtitle sm:text-5xl font-bold text-orange-300 mt-3">Welcome!</h1>
+                        <h1 className="subtitle sm:text-4xl font-bold text-orange-300 mt-3">Welcome!</h1>
                         <h2 className="subtitle sm:text-2xl font-bold text-stone-100 mt-3 mb-3">I am a Full Stack Web Developer</h2>
-                        <p className= "text-2xl text-stone-100 sm:text2xl mb-5">
-                        After teaching, I decided to make a career change into web development! 
-                        As a teacher, I taught middle school technology, science, and TV Broadcasting. 
-                        Also, I taught most subjects in 6th grade. 
-                        I did some project managing and was trusted to make important decisions. 
-                        Currently, I am finishing up a Full Stack Web Developer Bootcamp. 
+                        <p className= "text-xl text-stone-100 sm:text2xl mb-5">
+                        After teaching, I decided to make a career change from teaching to web development!
                         I like to design websites that have a Coolors color palette.
-                        I have used Bootstrap and Tailwind CSS for styling.
-                        However, I'm open to learning new technologies and frameworks.
-                        An attractive and appealing websites means more that customers will want to use and come back to your website!
-                        In my free time, I work on my own genealogy-connected YouTube Channel, lead hiking groups 
-                        and research genealogy. If you are looking for a remote front-end web developer, 
-                        then I could be the right fit for you and your company! I will be done with Bootcamp this June 2023!
+                        Attractive and appealing websites means more customers will want to use and come back to your website!
+                        If you are looking for a remote front-end web developer, then I could be the right fit for you and your company! 
                         </p>
-                    <div class="subtitle sm:text-4xl font-bold tracking-widest text-orange-300 dark:md:hover:bg-blue-900 ">
-                    {/* Later a-tag */}
+                    <div className="subtitle sm:text-4xl font-bold tracking-widest text-orange-300 animate-pulse space-x-4">
                     <a href="#portfolio" onClick={()=>handlePageChange("Portfolio")}>Portfolio</a>
                     </div>
                 </div>
-                <div className="picture rounded-xl mx-auto w-1/2 shadow-2xl mt-5">
+                <div>
                     <img src={Avatar}
                         alt="Me"
+                        className="picture rounded-lg mx-auto w-1/2 shadow-2xl mt-5"
                     />
                 </div>
             </div>

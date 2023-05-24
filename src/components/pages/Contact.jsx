@@ -34,9 +34,9 @@ const Contact = (props) => {
   return (
     <div
       name="contact"
-      className="contact w-full h-screen text-stone-100 tracking-widest"
+      className="contact text-stone-100 tracking-widest"
     >
-      <div className="flex flex-col p-1 justify-center max-w-screen-xl mx-auto h-full">
+      <div className="flex flex-col p-1 justify-center max-w-screen-xl my-20 mx-auto">
         <div className="pb-8">
           <p className="text-center text-4xl font-bold mb-5">
             Contact:
