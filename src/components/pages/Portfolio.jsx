@@ -5,7 +5,7 @@ import React from "react";
 
 // import the below from images....all are .png
 import BallotBox from "../../images/Main-Page.png";
-// import mood-booster from "";
+import MoodBooster from "../../images/MoodBooster.png";
 import weatherOutlook from "../../images/weatherImage.png";
 import NoteApp from "../../images/NotesWritten.png";
 import CommandLineApp from "../../images/Command-Line-App-Screenshot.png";
@@ -27,7 +27,7 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: `${process.env.PUBLIC_URL}/assets/img/Mood%20Booster.gif`,
+            src: MoodBooster,
             link: `https://github.com/123sites/Mood-Booster`,
             repo: `https://github.com/123sites/Mood-Booster`,
             title: `Mood Booster`,
@@ -73,13 +73,13 @@ const Portfolio = () => {
     ];
 
     return (
-        <div className="container flex-initial" id="portfolio">
-            <div className="row justify-description-center tracking-widest cursor-pointer">
+        <div className="mx-auto flex-initial" id="portfolio">
+            <div className="flex flex-wrap justify-center tracking-widest cursor-pointer">
                 {portfolios.map(project => (
-                    <div className="m-20 rounded-lg w-1/2 flex-row bg-stone-100" key={project.id}>
-                        <div className="projectContent flex">
-                            <div className="imageBox mr-5">
-                                <img src={project.src} className="card-img-top border-bottom" />
+                    <div className="m-5 rounded-lg w-1/4 flex-row bg-stone-100" key={project.id}>
+                        <div className="projectContent">
+                            <div className="imageBox h-80">
+                                <img src={project.src} className="card-img-top border-bottom w-full h-full object-fill" />
                             </div>
                             <div className="projectDescription p-3 text-blue-800 text-lg font-bold">
                                 <h3 className="mb-3 text-orange-500">{project.title}</h3>
