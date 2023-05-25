@@ -1,6 +1,8 @@
 # ⭐ React Portfolio ⭐
 
 ![alt text](https://img.shields.io/badge/License-MIT-blue.svg)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 ## Description ✏️
 
@@ -21,19 +23,9 @@ so that I can review samples of their work and assess whether they're a good can
 - ![License](#license)
 - ![Features](#features)
 
-## Installation & Requirements 🔑
+## Deployed Link 🔑
 
-1.  Clone this repository to your local machine.
-2.  Run `npm install` to install all dependencies.
-3.  Run `npm start` to start the application.
-4.  `Node.js` is required to run this application,
-5.  `React` will need to be installed as well.
-
-
-## Tests 🧪
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can view this through this Heroku link: 
 
 ## Usage &#128161;
 
@@ -47,7 +39,7 @@ This can be used for by anyone looking to hire a web developer.
 
 ## Credits & Questions 👈
 
-For this Challenge, I utilized code from the 20-PWA React Bootcamp folder and 
+For this Challenge, I utilized code from the 20-React Bootcamp folder and 
 I reached-out to get help from a tutor, if I needed help.
 
 ## License 📝
@@ -57,10 +49,18 @@ The MIT license is in the GitHub repository. Click to link to view it:
 
 ## Features ✍
 
-- ESLint
-- Express
-- Sequelize
-- Tailwind CSS
 - Coolors color palette
 - I created my own logo design
 - Polished UI that's responsive
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
