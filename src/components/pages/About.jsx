@@ -32,6 +32,7 @@ const About = ({ handlePageChange }) => {
                         alt="Me"
                         className="picture rounded-lg mx-auto w-1/2 shadow-2xl mt-5"
                     />
+                    {/* <img src="../images/laptop.jpg"></img> */}
                 </div>
             </div>
         </div>
