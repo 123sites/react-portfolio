@@ -78,7 +78,7 @@ const Portfolio = () => {
                 {portfolios.map(project => (
                     <div className="m-5 rounded-lg w-1/4 flex-row bg-stone-100" key={project.id}>
                         <div className="projectContent">
-                            <div className="imageBox h-80">
+                            <div className="imageBox h-90">
                                 <img src={project.src} className="card-img-top border-bottom w-full h-full object-fill" />
                             </div>
                             <div className="projectDescription p-3 text-blue-800 text-lg font-bold">
