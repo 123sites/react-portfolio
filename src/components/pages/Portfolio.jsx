@@ -36,7 +36,7 @@ const Portfolio = () => {
         {
             id: 3,
             src: CommandLineApp,
-            link: `https://github.com/123sites/Command-Line-Application`,
+            link: `https://youtu.be/pTnL5LTORCw`,
             repo: `https://github.com/123sites/Command-Line-Application`,
             title: `Command-Line-Application`,
             description: `This is an application that helps a business owner to view and manage the departments, roles, and employees. 

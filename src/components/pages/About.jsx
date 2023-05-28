@@ -1,12 +1,12 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Avatar from '../../images/picture-of-me.png'
 const About = ({ handlePageChange }) => {
     const [currentPath, setCurrentPath] = useState("");
     // runs when a component renderes in the browser
-    useEffect(()=>{
+    useEffect(() => {
         console.log(currentPath)
         setCurrentPath(window.location.pathname)
-    },[])
+    }, [])
 
     return (
         <div
@@ -15,16 +15,20 @@ const About = ({ handlePageChange }) => {
         >
             <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center text-center pt-10 px-1 md:flex-col tracking-widest">
                 <div>
-                        <h1 className="subtitle sm:text-4xl font-bold text-orange-300 mt-3">Welcome!</h1>
-                        <h2 className="subtitle sm:text-2xl font-bold text-stone-100 mt-3 mb-3">I am a Full Stack Web Developer</h2>
-                        <p className= "text-xl text-stone-100 sm:text2xl mb-5">
+                    <div>
+                        <a href="https://youtu.be/MuiZKK-X4xU" target="_blank"
+                            className="btn block mb-16 text-2xl tracking-wider font-bold" rel="noreferrer">My YouTube Channel</a>
+                    </div>
+                    <h1 className="subtitle sm:text-4xl font-bold text-orange-300 mt-3">Welcome!</h1>
+                    <h2 className="subtitle sm:text-2xl font-bold text-stone-100 mt-3 mb-3">I am a Full Stack Web Developer</h2>
+                    <p className="text-xl text-stone-100 sm:text2xl mb-5">
                         After teaching, I decided to make a career change from teaching to web development!
                         I like to design websites that have a Coolors color palette.
                         Attractive and appealing websites means more customers will want to use and come back to your website!
-                        If you are looking for a remote front-end web developer, then I could be the right fit for you and your company! 
-                        </p>
+                        If you are looking for a remote front-end web developer, then I could be the right fit for you and your company!
+                    </p>
                     <div className="subtitle sm:text-4xl font-bold tracking-widest text-orange-300 animate-pulse space-x-4">
-                    <a href="#portfolio" onClick={()=>handlePageChange("Portfolio")}>Portfolio</a>
+                        <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>Portfolio</a>
                     </div>
                 </div>
                 <div>

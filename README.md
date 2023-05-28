@@ -50,8 +50,9 @@ The MIT license is in the GitHub repository. Click to link to view it:
 ## Features ✍
 
 - Coolors color palette
-- I created my own logo design
+- Created my own logo design
 - Polished UI that's responsive
+- Video giving 3 good reasons why you should hire me and included music I added and edited.
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
