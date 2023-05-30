@@ -7,7 +7,7 @@ import React from "react";
 import BallotBox from "../../images/Main-Page.png";
 import MoodBooster from "../../images/MoodBooster.png";
 import weatherOutlook from "../../images/weatherImage.png";
-import NoteApp from "../../images/NotesWritten.png";
+import WorkDay from "../../images/WorkDay.png";
 import CommandLineApp from "../../images/Command-Line-App-Screenshot.png";
 import QuickCodeQuiz from "../../images/QuickCodeQuiz.png";
 
@@ -44,12 +44,12 @@ const Portfolio = () => {
             features: `Features: Node.js JavaScript, Inquirer, MySql, Figlet and Chalk.`
         }, {
             id: 4,
-            src: NoteApp,
-            link: `https://vast-mountain-72625.herokuapp.com/notes`,
-            repo: `https://github.com/123sites/Note-App`,
-            title: `Note App`,
-            description: `This is an application for someone to take notes, regarding what they need to do.  You can add, update, and delete your items kept in local storage.`,
-            features: `Features: JavaScript, CSS, Node.js, npm, Express, Heroku, Mobile responsive.`
+            src: WorkDay,
+            link: `https://123sites.github.io/Work-Day-Planner/`,
+            repo: `https://github.com/123sites/Work-Day-Planner`,
+            title: `Work Day Planner`,
+            description: `This will help you schedule out your day!`,
+            features: `Features: JavaScript, CSS, saves to local storage, color-coded time blocks, and it's Mobile responsive.`
         }, {
             id: 5,
             src: weatherOutlook,

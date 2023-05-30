@@ -1,12 +1,5 @@
 import React, {useState} from 'react';
 
-// import Form from '@tailwindcss/forms';
-// import Form from 'react-bootstrap/Form';
-// import Button from 'react-bootstrap/Button'; 
-
-
-
-
 // Function for form reset
 function handleSubmit(e) {
   setTimeout(() => {
@@ -41,7 +34,7 @@ const Contact = (props) => {
           <p className="text-center text-4xl font-bold mb-5">
             Contact:
           </p>
-          <p className="text-center">To contact me, simply submit this form:</p>
+          <p className="text-center text-xl tracking-widest">To contact me, simply submit this form:</p>
         </div>
 
         <div className="flex justify-center items-center">
@@ -57,24 +50,24 @@ const Contact = (props) => {
               name="name"
               placeholder="Your name"
               required
-              className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+              className="p-2 bg-transparent text-xl tracking-widest border-2 rounded-md focus:outline-none"
             />
             <input
               type="email"
               name="email"
               placeholder="Your email"
               required
-              className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+              className="my-4 p-2 bg-transparent text-xl tracking-widest border-2 rounded-md focus:outline-none"
             />
             <textarea
               name="message"
               placeholder="Your message"
               rows="10"
               required
-              className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
+              className="p-2 bg-transparent border-2 text-xl tracking-widest rounded-md focus:outline-none"
             ></textarea>
 
-            <button type="submit" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+            <button type="submit" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center text-xl tracking-widest rounded-md hover:scale-110 duration-300">
               Send Message
             </button>
           </form>

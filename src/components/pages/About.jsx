@@ -15,10 +15,6 @@ const About = ({ handlePageChange }) => {
         >
             <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center text-center pt-10 px-1 md:flex-col tracking-widest">
                 <div>
-                    <div>
-                        <a href="https://youtu.be/MuiZKK-X4xU" target="_blank"
-                            className="btn block mb-16 text-2xl tracking-wider font-bold" rel="noreferrer">My YouTube Channel</a>
-                    </div>
                     <h1 className="subtitle sm:text-4xl font-bold text-orange-300 mt-3">Welcome!</h1>
                     <h2 className="subtitle sm:text-2xl font-bold text-stone-100 mt-3 mb-3">I am a Full Stack Web Developer</h2>
                     <p className="text-xl text-stone-100 sm:text2xl mb-5">
@@ -36,6 +32,11 @@ const About = ({ handlePageChange }) => {
                         alt="Me"
                         className="picture rounded-lg mx-auto w-1/2 shadow-2xl mt-5"
                     />
+                    <iframe src="https://www.youtube.com/watch?v=MuiZKK-X4xU" title="YouTube video player" frameborder="0"
+
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen></iframe>
+
                     {/* <img src="../images/laptop.jpg"></img> */}
                 </div>
             </div>

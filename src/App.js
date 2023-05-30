@@ -1,13 +1,5 @@
-// import Navbar from "./components/Navbar";
-import PortfolioContainer from "./components/PortfolioContainer"
 
-// import Home from "./components/pages/Home";
-// import About from "./components/pages/About";
-// import Portfolio from "./components/pages/Portfolio";
-// import Contact from "./components/pages/Contact";
-// import Ytc from "./components/pages/Ytc";
-// import Resume from "./components/pages/Resume";
-// import Footer from "./components/pages/Footer"
+import PortfolioContainer from "./components/PortfolioContainer"
 
 function App() {
   return (
