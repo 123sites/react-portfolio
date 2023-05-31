@@ -1,9 +1,4 @@
-// Import the array from project....mapped through.
-// import Form from './Form';
-// import PortfolioContainer from './PortfolioContainer';
 import React from "react";
-
-// import the below from images....all are .png
 import BallotBox from "../../images/Main-Page.png";
 import MoodBooster from "../../images/MoodBooster.png";
 import weatherOutlook from "../../images/weatherImage.png";

@@ -9,7 +9,7 @@ import Logo from "../images/cfLogo.png";
 export default function Navbar({ handlePageChange, currentPage }) {
   console.log(currentPage);
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-stone-100 p-6 sticky top-0 font-extrabold tracking-wider">
+    <nav className="flex items-center md:justify-between flex-wrap bg-stone-100 p-6 sticky top-0 font-extrabold tracking-wider">
       <div className="logo-wrapper">
         <div className="flex items-center flex-shrink-0 text-blueGray-900 mr-6">
           {/* <svg className="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg> */}
@@ -37,7 +37,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
       </div>
       <div className="w-full lg:items-center lg:w-auto cursor-pointer">
         <div className="text-lg lg:flex-grow">
-          {/* {currentPage !== "About" && ( */}
+     
             <a
               href="#about"
               onClick={() => handlePageChange("About")}
@@ -45,8 +45,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               About Me
             </a>
-          {/* )} */}
-          {/* {currentPage !== "Portfolio" && ( */}
+      
             <a
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
@@ -54,8 +53,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               Portfolio
             </a>
-          {/* )} */}
-          {/* {currentPage !== "Ytc" && ( */}
+         
             <a
               href="#ytc"
               onClick={() => handlePageChange("Ytc")}
@@ -63,8 +61,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               My YouTube Channel
             </a>
-          {/* )} */}
-          {/* {currentPage !== "Contact" && ( */}
+    
             <a
               href="#contact"
               onClick={() => handlePageChange("Contact")}
@@ -72,8 +69,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               Contact
             </a>
-          {/* )}
-          {currentPage !== "Resume" && ( */}
+
             <a
               href="#resume"
               onClick={() => handlePageChange("Resume")}
@@ -81,79 +77,9 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               Resume
             </a>
-          {/* )} */}
+
         </div>
-        {/* <div>
-      <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
-    </div> */}
       </div>
     </nav>
   );
 }
-
-// function Navbar({ currentPage, handlePageChange }) {
-//   return (
-//     <ul className="nav nav-tabs">
-//       <li className="nav-item">
-//         <a
-//           href="#home"
-//           onClick={() => handlePageChange('Home')}
-
-//           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-//         >
-//           Home
-//         </a>
-//       </li>
-//       <li className="nav-item">
-//         <a
-//           href="#about"
-//           onClick={() => handlePageChange('About')}
-
-//           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-//         >
-//           About
-//         </a>
-//       </li>
-//       <li className="nav-item">
-//         <a
-//           href="#ytc"
-//           onClick={() => handlePageChange('Ytc')}
-
-//           className={currentPage === 'Ytc' ? 'nav-link active' : 'nav-link'}
-//         >
-//           Video
-//         </a>
-//       </li>
-//       <li className="nav-item">
-//         <a
-//           href="#portfolio"
-//           onClick={() => handlePageChange('Portfolio')}
-
-//           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-//         >
-//           Portfolio
-//         </a>
-//       </li>
-//       <li className="nav-item">
-//         <a
-//           href="#resume"
-//           onClick={() => handlePageChange('Resume')}
-
-//           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-//         >
-//           Resume
-//         </a>
-//       </li>
-//       <li className="nav-item">
-//         <a
-//           href="#contact"
-
-//           onClick={() => handlePageChange('Contact')}
-//           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-//         >
-//           Contact
-//         </a>
-//       </li>
-//     </ul>
-//   );
-// }

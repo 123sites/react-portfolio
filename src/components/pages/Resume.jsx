@@ -6,10 +6,10 @@ const Resume = () => {
       <header>
         <h1 className="text-4xl  text-orange-400 font-bold">Chel Freitas</h1>
         <br></br>
-        <h3 className="text-2xl  text-orange-400 font-bold">Front-end Developer</h3>
+        <h3 className="text-3xl  text-orange-400 font-bold">Front-end Developer</h3>
         <br></br>
         <a className="downloadLink" href="https://drive.google.com/file/d/1NQHcBLXn0zKOzfSkvWtpkSiMRAJPlahi/view?usp=sharing" target="_blank">
-        <h3 className="text-2xl  text-orange-400 font-bold">Downloadable Resume</h3>
+        <h3 className="text-3xl  text-orange-400 font-bold animate-pulse">Downloadable Resume</h3>
         </a>
         <br></br>
       </header>

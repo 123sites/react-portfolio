@@ -16,26 +16,22 @@ so that I can review samples of their work and assess whether they're a good can
 
 ## Table of Contents 📖
 
-- ![Installation](#installation)
-- ![Usage](#usage)
-- ![Badges](#badges)
-- ![Credits\_&_Questions](#credits_&_questions)
-- ![License](#license)
-- ![Features](#features)
+- [Link](#link)
+- [Screenshot](#badges)
+- [How_to_Contribute](#how_to_contribute)
+- [Credits_and_Questions](#questions)
+- [License](#license)
+- [Features](#features)
 
-## Deployed Link 🔑
+## Website Link 🔑
 
-You can view this through this Heroku link: 
-
-## Usage &#128161;
-
-[Repository link:](https://github.com/123sites/React-Portfolio)
+You can view this through this link: https://github.com/123sites/React-Portfolio 
 
 This can be used for by anyone looking to hire a web developer.
 
 ## Screenshot 🎯
 
-![alt text]()
+![alt text](./src/images/portfolio.png)
 
 ## Credits & Questions 👈
 
@@ -60,8 +56,6 @@ The MIT license is in the GitHub repository. Click to link to view it:
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
-![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)

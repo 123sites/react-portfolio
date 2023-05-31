@@ -13,7 +13,7 @@ const About = ({ handlePageChange }) => {
             name="about"
             className="w-full mb-5"
         >
-            <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center text-center pt-10 px-1 md:flex-col tracking-widest">
+            <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center text-center pt-10 tracking-widest">
                 <div>
                     <h1 className="subtitle sm:text-4xl font-bold text-orange-300 mt-3">Welcome!</h1>
                     <h2 className="subtitle sm:text-2xl font-bold text-stone-100 mt-3 mb-3">I am a Full Stack Web Developer</h2>
@@ -23,18 +23,27 @@ const About = ({ handlePageChange }) => {
                         Attractive and appealing websites means more customers will want to use and come back to your website!
                         If you are looking for a remote front-end web developer, then I could be the right fit for you and your company!
                     </p>
-                    <div className="subtitle sm:text-4xl font-bold tracking-widest text-orange-300 animate-pulse space-x-4">
+                    <div className="subtitle mb-5 sm:text-4xl font-bold tracking-widest text-orange-300 animate-pulse space-x-4">
                         <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>Portfolio</a>
                     </div>
                 </div>
-                <div>
-                    <img src={Avatar}
-                        alt="Me"
-                        className="picture rounded-lg mx-auto w-1/2 shadow-2xl mt-5"
-                    />
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/MuiZKK-X4xU" title="YouTube video player" frameborder="0" 
-                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    {/* <img src="../images/laptop.jpg"></img> */}
+                <div className="md:grid md:gap-0 md:grid-cols-2 mx-3 my-2">
+
+                    <div className="aspect-video">
+                        <iframe src="https://www.youtube.com/embed/MuiZKK-X4xU" title="YouTube video player"
+                            frameborder="0"
+                            allowfullscreen
+                            class="md:w-3/4 md:h-3/4 mt-9 sm:place-self:center"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+                        </iframe>
+
+                    </div>
+                    <div className="flex flex-end">
+                        <img src={Avatar}
+                            alt="Me"
+                            className="picture rounded-lg md:mx-auto md:w-2/3 mb-5 shadow-2xl"
+                        />
+                    </div>
                 </div>
             </div>
         </div>
