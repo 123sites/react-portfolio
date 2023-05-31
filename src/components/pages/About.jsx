@@ -32,11 +32,8 @@ const About = ({ handlePageChange }) => {
                         alt="Me"
                         className="picture rounded-lg mx-auto w-1/2 shadow-2xl mt-5"
                     />
-                    <iframe src="https://www.youtube.com/watch?v=MuiZKK-X4xU" title="YouTube video player" frameborder="0"
-
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        allowfullscreen></iframe>
-
+                     <iframe width="560" height="315" src="https://www.youtube.com/embed/MuiZKK-X4xU" title="YouTube video player" frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     {/* <img src="../images/laptop.jpg"></img> */}
                 </div>
             </div>

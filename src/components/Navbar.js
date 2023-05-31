@@ -37,7 +37,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
       </div>
       <div className="w-full lg:items-center lg:w-auto cursor-pointer">
         <div className="text-lg lg:flex-grow">
-          {currentPage !== "About" && (
+          {/* {currentPage !== "About" && ( */}
             <a
               href="#about"
               onClick={() => handlePageChange("About")}
@@ -45,8 +45,8 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               About Me
             </a>
-          )}
-          {currentPage !== "Portfolio" && (
+          {/* )} */}
+          {/* {currentPage !== "Portfolio" && ( */}
             <a
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
@@ -54,8 +54,8 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               Portfolio
             </a>
-          )}
-          {currentPage !== "Ytc" && (
+          {/* )} */}
+          {/* {currentPage !== "Ytc" && ( */}
             <a
               href="#ytc"
               onClick={() => handlePageChange("Ytc")}
@@ -63,8 +63,8 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               My YouTube Channel
             </a>
-          )}
-          {currentPage !== "Contact" && (
+          {/* )} */}
+          {/* {currentPage !== "Contact" && ( */}
             <a
               href="#contact"
               onClick={() => handlePageChange("Contact")}
@@ -72,8 +72,8 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               Contact
             </a>
-          )}
-          {currentPage !== "Resume" && (
+          {/* )}
+          {currentPage !== "Resume" && ( */}
             <a
               href="#resume"
               onClick={() => handlePageChange("Resume")}
@@ -81,7 +81,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             >
               Resume
             </a>
-          )}
+          {/* )} */}
         </div>
         {/* <div>
       <a href="#" className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
