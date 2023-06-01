@@ -1,8 +1,5 @@
 import React from "react";
 import Logo from "../images/cfLogo.png";
-// import PortfolioContainer from './PortfolioContainer';
-// import { FaBars, FaTimes } from "react-icons/fa";
-// import { Link } from "react-scroll";
 
 // https://v1.tailwindcss.com/components/navigation
 
@@ -21,7 +18,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
               Chel Freitas
             </span>
           </div>
-          <div className="block lg:hidden">
+          <div className="block md:hidden">
             <button className="flex items-center px-3 py-2 border rounded text-blueGray border-teal-400 hover:text-gray hover:border-white">
               <svg
                 className="fill-current h-3 w-3"
@@ -35,13 +32,12 @@ export default function Navbar({ handlePageChange, currentPage }) {
           </div>
         </div>
       </div>
-      <div className="w-full lg:items-center lg:w-auto cursor-pointer">
-        <div className="text-lg lg:flex-grow">
-     
+      <div className="w-full md:items-center md:w-auto cursor-pointer">
+        <div className="text-lg md:flex-grow">
             <a
               href="#about"
               onClick={() => handlePageChange("About")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
+              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
             >
               About Me
             </a>
@@ -49,7 +45,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             <a
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
+              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
             >
               Portfolio
             </a>
@@ -57,7 +53,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             <a
               href="#ytc"
               onClick={() => handlePageChange("Ytc")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
+              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
             >
               My YouTube Channel
             </a>
@@ -65,7 +61,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             <a
               href="#contact"
               onClick={() => handlePageChange("Contact")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
+              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
             >
               Contact
             </a>
@@ -73,7 +69,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
             <a
               href="#resume"
               onClick={() => handlePageChange("Resume")}
-              className="block mt-4 lg:inline-block lg:mt-0 text-blueGray nav-link mr-5 text-orange-500"
+              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500  active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
             >
               Resume
             </a>
