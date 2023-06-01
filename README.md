@@ -25,7 +25,7 @@ so that I can review samples of their work and assess whether they're a good can
 
 ## Website Link 🔑
 
-You can view this through this link:
+You can view this through this link: https://123sites.github.io/react-portfolio/
 My gitHub profile can be found at: https://github.com/123sites 
 
 This can be used for by anyone looking to hire a web developer.
