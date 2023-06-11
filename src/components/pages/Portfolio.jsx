@@ -1,6 +1,6 @@
 import React from "react";
 import BallotBox from "../../images/Main-Page.png";
-import MoodBooster from "../../images/MoodBooster.png";
+import BarkBuddy from "../../images/home-light-mode";
 import weatherOutlook from "../../images/weatherImage.png";
 import WorkDay from "../../images/WorkDay.png";
 import CommandLineApp from "../../images/Command-Line-App-Screenshot.png";
@@ -20,13 +20,12 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: MoodBooster,
-            link: `https://123sites.github.io/Mood-Booster/`,
-            repo: `https://github.com/123sites/Mood-Booster`,
-            title: `Mood Booster`,
-            description: `Mood Booster is an App to help give you that needed boost in your mood.  The App gives you the opportunity 
-            to choose either a joke or a meme to help you get through the day!`,
-            features: `Features: HTML, CSS, JavaScript, jQuery, API fetches, Mobile responsive.`
+            src: BarkBuddy,
+            link: `https://cf-bark-buddy.herokuapp.com`,
+            repo: `https://github.com/123sites/bark-buddy`,
+            title: `Bark Buddy`,
+            description: `There are many different dogs, but which one is for you?  Narrow down your search with a quick quiz and then browse for adoptable dogs through our Pick a Pooch search! You can even find a shelter and donate!`,
+            features: `Features: MERN, Bootstrap, advanced CSS using variables, Coolors color palette, light and dark mode, Express, JWT, ESLint, and mobile responsive.`
         },
         {
             id: 3,
