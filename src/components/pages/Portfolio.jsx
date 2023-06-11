@@ -1,6 +1,6 @@
 import React from "react";
 import BallotBox from "../../images/Main-Page.png";
-import BarkBuddy from "../../images/home-light-mode";
+import BarkBuddy from "../../images/barkbuddy.png";
 import weatherOutlook from "../../images/weatherImage.png";
 import WorkDay from "../../images/WorkDay.png";
 import CommandLineApp from "../../images/Command-Line-App-Screenshot.png";
@@ -16,7 +16,7 @@ const Portfolio = () => {
             title: 'Ballot-Box',
             description: `Ballot-Box is a polling tool to use for a democratic means of reaching a majority agreed solution.  This is a
             one-stop solution for real-time polling.  Easily create custom polls, share them globally, and gain instant insights.`,
-            features: `Features: JavaScript, Node, Express, Handlebars, MySQL, Chartjs, Sequelize, Mobile responsive, and has a Coolors color palette!`
+            features: `Features: JavaScript, Node, Express, Handlebars, MySQL, Chartjs, Sequelize, Mobile responsive, and has a Coolors color palette.`
         },
         {
             id: 2,
