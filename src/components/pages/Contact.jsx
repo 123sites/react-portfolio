@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 // Function for form reset
 function handleSubmit(e) {
@@ -8,20 +8,6 @@ function handleSubmit(e) {
 }
 
 // // Contact form - Later redo with my information.
-// function Contact() {
-//   // https://react.dev/reference/react/useRef
-//   const inputRef = useRef(null);
-//   // ...
-//   const onButtonClick = () => {
-//     // `current` points to the mounted text input element
-//     inputRef.current.focus();
-//   };
-
-// components input: https://react.dev/reference/react-dom/components/input
-// tailwindcss forms: https://v1.tailwindcss.com/components/forms#custom-select 
-
-// See 20 #15 React-Forms & Mini-Project: components to BucketForm.js
-
 const Contact = (props) => {
   const [input, setInput] = useState('');
   return (
