@@ -9,7 +9,7 @@ const Resume = () => {
         <h3 className="text-3xl  text-orange-400 font-bold">Front-end Developer</h3>
         <br></br>
         <a className="downloadLink" href="https://drive.google.com/file/d/1NQHcBLXn0zKOzfSkvWtpkSiMRAJPlahi/view?usp=sharing" target="_blank">
-        <h3 className="text-3xl  text-orange-400 font-bold animate-pulse">Downloadable Resume</h3>
+          <h3 className="text-3xl  text-orange-400 font-bold animate-pulse">Downloadable Resume</h3>
         </a>
         <br></br>
       </header>
@@ -38,7 +38,7 @@ const Resume = () => {
         <div className="experience-item">
           <h3 className="text-2xl">Middle School Teacher</h3>
           <h4>Tortolita Middle School</h4>
-          <p>2015 - 2022</p>
+          <p>June 2015 - June 2022</p>
           <ul>
             <li>Taught computers, TV broadcasting, and science.</li>
             <br></br>
@@ -48,9 +48,9 @@ const Resume = () => {
         <div className="experience-item">
           <h3 className="text-2xl">6th Grade Teacher</h3>
           <h4>Ironwood Elementary School</h4>
-          <p>January 2019 - May 2019</p>
+          <p>June 2001 - May 2015</p>
           <ul>
-            <li>Taught most subject in 6th grade.</li>
+            <li>Taught most subjects in 6th grade.</li>
           </ul>
         </div>
       </section>
@@ -79,91 +79,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
-
-
-// import React, { Component } from "react";
-// import ResumeCard from "./resume";
-// import DownloadLink from "./download";
-
-// class Resume extends Component {
-//   state = {
-//     resume: process.env.PUBLIC_URL + "/resume.pdf",
-//     experience: [
-//       {
-//         date: "2022 - present",
-//         name: "Azores Travel & Genealogy YouTube Channel",
-//         summary:
-//           "YouTube content creator,"
-//       },
-//       {
-//         date: "2015 - 2022",
-//         name: "Tortolita Middle School",
-//         summary:
-//           "Introductory coding, graphic arts, and TV Broadcasting.",
-//       },
-//       {
-//         date: "2001 - 2015",
-//         name: "Ironwood Elementary School",
-//         summary:
-//           "Sixth grade teacher.",
-//       },
-//     ],
-//     education: [
-//       {
-//         date: "2022 - 2023",
-//         name: " University of Arizona",
-//         summary: "Full Stack Bootcamp Certification",
-//       },
-//       {
-//         date: "2001 - 2015 ",
-//         name: " University of Arizona",
-//         summary: "Bachelor's in Elementary Education (K-8), endorsements in: Middle School Science, STEM, and Second Language Learner Teacher",
-//       },
-//     ],
-//   };
-//   render() {
-//     return (
-//       <React.Fragment>
-//         <div className="p-5 container">
-//           <h2 className="text-center">
-//             My <span className="resume-span">Background</span>
-//           </h2>
-//           <div className="text-center">
-//             <DownloadLink fileUrl={this.state.resume} />
-//           </div>
-
-//           <div>
-//             <h3 className="text-center">Experience</h3>
-//             <div className="row px-5">
-//               {this.state.experience.map((exp, index) => (
-//                 <ResumeCard
-//                   key={index}
-//                   name={exp.name}
-//                   summary={exp.summary}
-//                   date={exp.date}
-//                 />
-//               ))}
-//             </div>
-//           </div>
-
-//           <div>
-//             <h3 className="text-center">Education</h3>
-//             <div className="row px-5">
-//               {this.state.education.map((edu, index) => (
-//                 <ResumeCard
-//                   key={index}
-//                   name={edu.name}
-//                   summary={edu.summary}
-//                   date={edu.date}
-//                 />
-//               ))}
-//             </div>
-//           </div>
-//         </div>
-//       </React.Fragment>
-//     );
-//   }
-// }
-
-// export default Resume;

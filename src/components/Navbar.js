@@ -34,46 +34,45 @@ export default function Navbar({ handlePageChange, currentPage }) {
       </div>
       <div className="w-full md:items-center md:w-auto cursor-pointer">
         <div className="text-lg md:flex-grow">
-            <a
-              href="#about"
-              onClick={() => handlePageChange("About")}
-              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
-            >
-              About Me
-            </a>
-      
-            <a
-              href="#portfolio"
-              onClick={() => handlePageChange("Portfolio")}
-              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
-            >
-              Portfolio
-            </a>
-         
-            <a
-              href="#ytc"
-              onClick={() => handlePageChange("Ytc")}
-              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
-            >
-              My YouTube Channel
-            </a>
-    
-            <a
-              href="#contact"
-              onClick={() => handlePageChange("Contact")}
-              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
-            >
-              Contact
-            </a>
+          <a
+            href="#about"
+            onClick={() => handlePageChange("About")}
+            className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
+          >
+            About Me
+          </a>
 
-            <a
-              href="#resume"
-              onClick={() => handlePageChange("Resume")}
-              className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500  active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
-            >
-              Resume
-            </a>
+          <a
+            href="#portfolio"
+            onClick={() => handlePageChange("Portfolio")}
+            className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
+          >
+            Portfolio
+          </a>
 
+          <a
+            href="#ytc"
+            onClick={() => handlePageChange("Ytc")}
+            className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
+          >
+            My YouTube Channel
+          </a>
+
+          <a
+            href="#contact"
+            onClick={() => handlePageChange("Contact")}
+            className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500 active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
+          >
+            Contact
+          </a>
+
+          <a
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            className="block mt-4 md:inline-block md:mt-0 text-blueGray nav-link mr-5 text-orange-500  active:bg-blue-800 focus:outline-none focus:ring focus:ring-blue-800 p-3"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </nav>
