@@ -13,12 +13,6 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', sans-serif;
-  /* margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Montserrat', "Inter", 'Nunito Sans',
-    sans-serif; */
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("../public/blueWithCircles.jpg");
@@ -26,30 +20,15 @@ body {
   background-size: cover;
   background-repeat: repeat-y;
   height: 100vh;
-
 }
 
-#root {
-  
-}
+#root {}
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
- .card{
+/* .card {
   @apply rounded bg-white border-gray-200 shadow-md overflow-hidden relative;
-}
-
-/* .badge{
-  @apply absolute top-0 ml-2 p-2 mt-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
 } */
-
-/* .btn{
-  @apply rounded-full py-2 px-3 uppercase text-xs font-bold tracking-wider cursor-pointer;
-} */ 
-
-.nav-link:hover{
-  color:blue;
-}

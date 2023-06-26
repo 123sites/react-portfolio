@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import resume from "../../images/resume.pdf";
 
 // Function for form reset
 function handleSubmit(e) {
@@ -15,49 +16,46 @@ const Contact = (props) => {
       name="contact"
       className="contact text-stone-100 tracking-widest"
     >
-      <div className="flex flex-col p-1 justify-center max-w-screen-xl my-20 mx-auto">
+      <div className="flex flex-col p-1 justify-center max-w-screen-xl my-10 mx-auto">
+        <div>
+        </div>
+        <div>
+          <h1 className="subtitle md:text-4xl sm:text-5xl text-center font-bold mb-10 text-orange-400 mt-3">Contact Information</h1>
+        </div>
         <div className="pb-8">
-          <p className="text-center text-4xl font-bold mb-5">
-            Contact:
+          <p className="text-center text-2xl font-bold mb-5">
+            <a href="mailto:cfreitas12345@gmail.com"
+              className="text-center text-xl font-bold mb-5"
+            > Email: cfreitas12345@gmail.com
+            </a>
           </p>
-          <p className="text-center text-xl tracking-widest">To contact me, simply submit this form:</p>
+
+        </div>
+        <div className="pb-8">
+          <p className="text-center text-2xl font-bold mb-5">
+            <a href="https://github.com/123sites?tab=repositories"
+              className="text-center text-2xl font-bold mb-5"
+            > GitHub
+            </a>
+          </p>
+
+        </div>
+        <div className="pb-8">
+          <p className="text-center text-2xl font-bold mb-5">
+            <a href="https://www.linkedin.com/in/chelwebdeveloper/"
+              className="text-center text-2xl font-bold mb-5"
+            > LinkedIn
+            </a>
+          </p>
+
+        </div>
+        <div className="pb-8">
+          <p className="text-center text-2xl font-bold mb-5">
+            <a href={resume} target="_blank">Resume</a>
+          </p>
+
         </div>
 
-        <div className="flex justify-center items-center">
-          <form
-            onSubmit={handleSubmit}
-            name="contact"
-            method="POST"
-            action=""
-            className=" flex flex-col w-full md:w-1/2"
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Your name"
-              required
-              className="p-2 bg-transparent text-xl tracking-widest border-2 rounded-md focus:outline-none"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your email"
-              required
-              className="my-4 p-2 bg-transparent text-xl tracking-widest border-2 rounded-md focus:outline-none"
-            />
-            <textarea
-              name="message"
-              placeholder="Your message"
-              rows="10"
-              required
-              className="p-2 bg-transparent border-2 text-xl tracking-widest rounded-md focus:outline-none"
-            ></textarea>
-
-            <button type="submit" className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center text-xl tracking-widest rounded-md hover:scale-110 duration-300">
-              Send Message
-            </button>
-          </form>
-        </div>
       </div>
     </div>
   );
