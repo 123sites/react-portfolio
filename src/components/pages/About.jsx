@@ -13,17 +13,19 @@ const About = ({ handlePageChange }) => {
             name="about"
             className="w-full mb-5"
         >
-            <div className="md:max-w-screen-xl mx-auto flex flex-col items-center justify-center text-center pt-10 tracking-widest">
+            <div className="md:max-w-screen-xl mx-auto flex flex-col justify-center text-center pt-10 tracking-widest">
                 <div>
-                    <h1 className="subtitle md:text-4xl sm:text-5xl font-bold text-orange-400 md:mt-3 sm:mt-1">Welcome!</h1>
-                    <h2 className="subtitle sm:text-2xl font-bold text-stone-100 p-3 m-3">I am a Full Stack Web Developer</h2>
-                    <p className="text-xl text-stone-100 sm:text-2xl mx-4 mb-5">
+                </div>
+                <div className=" bg-stone-100 rounded drop-shadow-2xl tracking-widest text-extrabold border-8 border-orange-500">
+                    <h1 className="subtitle lg:text-4xl sm:text-3xl font-bold text-orange-500 mt-4 sm:mt-1">Welcome!</h1>
+                    <h2 className="subtitle lg:text-3xl sm:text-xl font-bold text-blue-800 p-2 m-2">I am a Full Stack Web Developer.</h2>
+                    <p className="text-xl font-extrabold text-blue-800 sm:text-2xl mx-4">
                         After teaching, I decided to make a career change from teaching to web development!
                         I like to design websites that have a Coolors color palette.
                         Attractive and appealing websites means more customers will want to use and come back to your website!
                         If you are looking for a remote front-end web developer, then I could be the right fit for you and your company!
                     </p>
-                    <div className="subtitle md:mb-7 sm:mb-1 sm:text-4xl font-bold tracking-widest text-orange-400 animate-pulse space-x-4">
+                    <div className="subtitle my-6 sm:mb-2 md:text-4xl font-bold tracking-widest text-orange-500 animate-pulse space-x-4">
                         <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>Portfolio</a>
                     </div>
                 </div>
@@ -33,7 +35,7 @@ const About = ({ handlePageChange }) => {
                         <iframe src="https://www.youtube.com/embed/MuiZKK-X4xU" title="YouTube video player"
                             frameborder="0"
                             allowfullscreen
-                            class="md:w-3/4 md:h-3/4 mt-9 sm:w-full sm:h-auto sm:place-self:center"
+                            class="md:w-4/5 md:h-4/5 ml-28 sm:w-full sm:align-baseline mt-14 sm:place-self:center"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
                         </iframe>
 

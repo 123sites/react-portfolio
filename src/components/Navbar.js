@@ -11,7 +11,7 @@ export default function Navbar({ handlePageChange, currentPage }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between flex-wrap bg-stone-100 p-3">
+    <nav className="flex justify-between flex-wrap sticky top-0 bg-stone-100 p-3">
       <div className="flex items-center flex-shrink-0 text-stone-100 mr-6">
         <div className="flex flex-nowrap items-center pr-3 h-auto">
           {" "}
