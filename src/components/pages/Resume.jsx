@@ -9,7 +9,7 @@ const Resume = () => {
         <br></br>
         <h3 className="text-3xl  text-orange-400 font-bold">Front-end Developer</h3>
         <br></br>
-        <a className="downloadLink" href={resume} target="_blank">
+        <a className="downloadLink" href={resume} target="_blank" rel="noopener noreferrer">
           <h3 className="text-3xl  text-orange-400 font-bold animate-pulse">Downloadable Resume</h3>
         </a>
         <br></br>

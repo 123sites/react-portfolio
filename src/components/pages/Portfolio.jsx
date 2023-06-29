@@ -70,7 +70,7 @@ const Portfolio = () => {
                     <div className="m-5 rounded-lg md:w-1/4 md:flex-row sm:w-full sm:flex-col bg-stone-100" key={project.id}>
                         <div className="projectContent">
                             <div className="imageBox h-90">
-                                <img src={project.src} className="card-img-top border-bottom w-full h-full object-fill" />
+                                <img src={project.src} className="card-img-top border-bottom w-full h-full object-fill" alt="Ballot Box website." />
                             </div>
                             <div className="projectDescription p-3 text-blue-800 text-lg font-bold">
                                 <h3 className="mb-3 text-orange-500">{project.title}</h3>
@@ -83,10 +83,10 @@ const Portfolio = () => {
                                     </small>
                                 </p>
 
-                                <div className="gitHubLinks position-absolute p-3 animate-pulse mx-2 text-center scale-150">
-                                    <a href={project.link} target="_blank" className="btn hover:bg-blue-200 active:bg-blue-200 mr-5" rel="noreferrer">
+                                <div className="gitHubLinks position-absolute p-5 animate-pulse mt-3 rounded text-center scale-150">
+                                    <a href={project.link} target="_blank" className="btn rounded hover:bg-orange-500 p-3 m-1 hover:text-stone-100 active:bg-orange-500 active:text-stone-100 place-content-center" rel="noopener noreferrer">
                                         <i className="fas fa-laptop-code"></i></a>
-                                    <a href={project.repo} target="_blank" className="btn hover:bg-blue-200 active:bg-blue-200 place-content-center" rel="noreferrer">
+                                    <a href={project.repo} target="_blank" className="btn rounded hover:bg-orange-500 p-3 m-1 hover:text-stone-100 active:bg-orange-500 active:text-stone-100 place-content-center" rel="noopener noreferrer">
                                         <i className="fab fa-github"></i></a>
                                 </div>
                             </div>

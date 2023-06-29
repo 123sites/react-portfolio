@@ -20,7 +20,7 @@ const Contact = (props) => {
         <div>
         </div>
         <div>
-          <h1 className="subtitle md:text-4xl sm:text-5xl text-center font-bold mb-10 text-orange-400 mt-3">Contact Information</h1>
+          <h1 className="subtitle text-3xl sm:text-4xl text-center font-bold mb-10 text-orange-400 mt-3">Contact Information</h1>
         </div>
         <div className="pb-8">
           <p className="text-center text-2xl font-bold mb-5">
@@ -51,7 +51,7 @@ const Contact = (props) => {
         </div>
         <div className="pb-8">
           <p className="text-center text-2xl font-bold mb-5">
-            <a href={resume} target="_blank">Resume</a>
+            <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
           </p>
 
         </div>

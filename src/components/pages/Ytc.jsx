@@ -8,7 +8,7 @@ const Ytc = () => {
 
       <div className="flex flex-col items-center sm:flex-col text-stone-100 text-center mt-7">
         <a href="https://www.youtube.com/channel/UCMNe2clJI6nf-rmXoVg01xw" target="_blank"
-          className="btn mb-3 text-3xl tracking-wider font-bold  text-orange-400 animate-pulse" rel="noreferrer">Azores Travel & Genealogy YouTube Channel</a>
+          className="btn mb-3 text-3xl tracking-wider font-bold  text-orange-400 animate-pulse" rel="noopener noreferrer">Azores Travel & Genealogy YouTube Channel</a>
 
         <h1 className="text-3xl mb-3 tracking-wider font-bold">All About It:</h1>
 
