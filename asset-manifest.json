@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.976cf7c5.css",
-    "main.js": "/react-portfolio/static/js/main.ceeadad8.js",
+    "main.css": "/react-portfolio/static/css/main.26a4cf9b.css",
+    "main.js": "/react-portfolio/static/js/main.f4469ff3.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/picture-of-me.png": "/react-portfolio/static/media/picture-of-me.3d921259fe517be96538.png",
     "static/media/barkbuddy.png": "/react-portfolio/static/media/barkbuddy.9b2e811b3a1644354aba.png",
@@ -9,16 +9,17 @@
     "static/media/WorkDay.png": "/react-portfolio/static/media/WorkDay.c9985b61191d8563c8ed.png",
     "static/media/cfLogo.png": "/react-portfolio/static/media/cfLogo.d2d1e2213680a9555000.png",
     "static/media/weatherImage.png": "/react-portfolio/static/media/weatherImage.d6ceeb067e98fb56efc4.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.363b113e89a607e14992.pdf",
     "static/media/QuickCodeQuiz.png": "/react-portfolio/static/media/QuickCodeQuiz.36580f8dea510c658744.png",
     "static/media/blueWithCircles.jpg": "/react-portfolio/static/media/blueWithCircles.46ec083e5555c9bb6449.jpg",
     "static/media/Command-Line-App-Screenshot.png": "/react-portfolio/static/media/Command-Line-App-Screenshot.ef9bd075fc8fe6ac543b.png",
     "index.html": "/react-portfolio/index.html",
-    "main.976cf7c5.css.map": "/react-portfolio/static/css/main.976cf7c5.css.map",
-    "main.ceeadad8.js.map": "/react-portfolio/static/js/main.ceeadad8.js.map",
+    "main.26a4cf9b.css.map": "/react-portfolio/static/css/main.26a4cf9b.css.map",
+    "main.f4469ff3.js.map": "/react-portfolio/static/js/main.f4469ff3.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.976cf7c5.css",
-    "static/js/main.ceeadad8.js"
+    "static/css/main.26a4cf9b.css",
+    "static/js/main.f4469ff3.js"
   ]
 }
