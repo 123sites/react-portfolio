@@ -13,7 +13,7 @@ const About = ({ handlePageChange }) => {
             name="about"
             className="w-full mb-5"
         >
-            <div className="md:max-w-screen-xl mx-auto flex flex-col justify-center text-center pt-10 tracking-widest">
+            <div className="md:max-w-screen-xl mx-auto flex flex-col justify-center text-center pt-10 tracking-widest sm:align-content:center">
                 <div>
                 </div>
                 <div className=" bg-stone-100 rounded drop-shadow-2xl tracking-widest text-extrabold border-8 border-orange-500">
@@ -35,7 +35,7 @@ const About = ({ handlePageChange }) => {
                         <iframe src="https://www.youtube.com/embed/MuiZKK-X4xU" title="YouTube video player"
                             frameborder="0"
                             allowfullscreen
-                            class="md:w-4/5 md:h-4/5 ml-28 sm:w-full sm:align-baseline mt-14 sm:place-self:center"
+                            class="mt-14 md:w-4/5 md:h-4/5 ml-28 sm:w-full sm:h-auto sm:align-content:center"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
                         </iframe>
 
