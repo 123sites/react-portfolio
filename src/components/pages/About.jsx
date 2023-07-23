@@ -36,7 +36,7 @@ const About = ({ handlePageChange }) => {
                         <iframe src="https://www.youtube.com/embed/MuiZKK-X4xU" title="YouTube video player"
                             frameborder="0"
                             allowfullscreen
-                            class="mt-14 mx-auto md:w-4/5 md:h-4/5 md:ml-28 sm:m-5 sm:w-full sm:h-auto sm:px-4"
+                            class="mt-12 mx-auto md:w-4/5 md:h-4/5 md:ml-28 h-auto"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
                         </iframe>
 
@@ -44,7 +44,7 @@ const About = ({ handlePageChange }) => {
                     <div className="flex flex-end focus:opacity-100">
                         <img src={Avatar}
                             alt="Me"
-                            className="picture rounded-lg md:mx-auto md:w-2/3 mb-5 shadow-2xl"
+                            className="picture rounded-lg md:mx-auto md:w-2/3 px-6 pb-5"
                         />
                     </div>
                 </div>
