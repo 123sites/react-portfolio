@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -6,7 +6,12 @@ import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import Ytc from "./pages/Ytc";
 import Resume from "./pages/Resume";
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import {
+  Route,
+  BrowserRouter as Router,
+  Routes,
+  useNavigate,
+} from "react-router-dom";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");

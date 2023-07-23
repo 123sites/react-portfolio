@@ -2,12 +2,22 @@
 import React, { useState } from "react";
 import Logo from "../images/cfLogo.png";
 import resume from "../images/resume.pdf";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 // https://v1.tailwindcss.com/components/navigation#app
 
 export default function Navbar({ handlePageChange, currentPage }) {
   console.log(currentPage);
+
+  const navigate = useNavigate();
+  useEffect(() => {
+    const url = new URL(window.location);
+    const path = url.searchParams.get("path");
+    if (path) {
+      navigate("/react-portfolio" + path);
+    }
+  }, []);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
