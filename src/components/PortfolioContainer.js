@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Footer from "./pages/Footer";
 import Ytc from "./pages/Ytc";
 import Resume from "./pages/Resume";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -43,9 +44,25 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Router>
+        <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+        {/* {renderPage()} */}
+        <Routes>
+          <Route
+            path="/react-portfolio/portfolio"
+            element={<Portfolio />}
+          ></Route>
+          <Route path="/react-portfolio/ytc" element={<Ytc />}></Route>
+          <Route path="/react-portfolio/contact" element={<Contact />}></Route>
+          <Route
+            path="/*"
+            element={
+              <About handlePageChange={handlePageChange} currentPage="about" />
+            }
+          ></Route>
+        </Routes>
+      </Router>
 
-      {renderPage()}
       <Footer />
     </div>
   );

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Logo from "../images/cfLogo.png";
 import resume from "../images/resume.pdf";
+import { Link } from "react-router-dom";
 
 // https://v1.tailwindcss.com/components/navigation#app
 
@@ -11,25 +12,24 @@ export default function Navbar({ handlePageChange, currentPage }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between flex-wrap sticky top-0 bg-stone-100 p-3">
+    <nav className="flex justify-between flex-wrap sticky top-0 bg-stone-100 p-3 z-10">
       <div className="flex items-center flex-shrink-0 text-stone-100 mr-6">
         <div className="flex flex-nowrap items-center pr-3 h-auto">
           {" "}
-          <a href="#About" onClick={() => handlePageChange("About")}>
+          <Link to="/react-portfolio">
             <img
               className="w-20"
               src={Logo}
               alt="Logo with CF on a laptop screen."
             ></img>
-          </a>
+          </Link>
           {/* <span className="flex flex-wrap:nowrap text-2xl sm:text-4xl font-extrabold tracking-wider text-orange-500"> */}
-          <a
-            href="#About"
+          <Link
+            to="/react-portfolio"
             className="text-2xl sm:text-4xl font-extrabold tracking-wider text-orange-500"
-            onClick={() => handlePageChange("About")}
           >
             Chel Freitas
-          </a>
+          </Link>
           {/* </span> */}
         </div>
         <button
@@ -53,34 +53,32 @@ export default function Navbar({ handlePageChange, currentPage }) {
         } flex-grow text-right lg:flex lg:items-center lg:w-auto`}
       >
         <div className="text-sm lg:flex-grow">
-          <a
-            href="#About"
-            onClick={() => handlePageChange("About")}
+          <Link
+            to="/react-portfolio/about"
             className="block mt-3 lg:inline-block lg:mt-0 tracking-wider text-center font-extrabold md:p-2 text-base text-orange-500 rounded hover:bg-orange-500 hover:text-stone-100"
           >
             About Me
-          </a>
-          <a
-            href="#Portfolio"
-            onClick={() => handlePageChange("Portfolio")}
+          </Link>
+
+          <Link
+            to="/react-portfolio/portfolio"
             className="block mt-3 lg:inline-block lg:mt-0 tracking-wider text-center font-extrabold md:p-2 text-base text-orange-500 rounded hover:bg-orange-500 hover:text-stone-100"
           >
             Portfolio
-          </a>
-          <a
-            href="#My_YouTube"
-            onClick={() => handlePageChange("Ytc")}
+          </Link>
+
+          <Link
+            to="/react-portfolio/ytc"
             className="block mt-3 lg:inline-block lg:mt-0 tracking-wider text-center font-extrabold md:p-2 text-base text-orange-500 rounded hover:bg-orange-500 hover:text-stone-100"
           >
             My YouTube
-          </a>
-          <a
-            href="#Contact"
-            onClick={() => handlePageChange("Contact")}
+          </Link>
+          <Link
+            to="/react-portfolio/contact"
             className="block mt-3 lg:inline-block lg:mt-0 tracking-wider text-center font-extrabold md:p-2 text-base text-orange-500 rounded hover:bg-orange-500 hover:text-stone-100"
           >
             Contact
-          </a>
+          </Link>
           <a
             href={resume}
             target="_blank"
