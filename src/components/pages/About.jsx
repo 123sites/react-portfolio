@@ -7,7 +7,7 @@ const About = ({ handlePageChange }) => {
     useEffect(() => {
         console.log(currentPath)
         setCurrentPath(window.location.pathname)
-    }, [])
+    }, [currentPath])
 
     return (
         <div
@@ -30,13 +30,12 @@ const About = ({ handlePageChange }) => {
                         <Link to="/react-portfolio/portfolio">Portfolio</Link>
                     </div>
                 </div>
+                <div className="text-2xl text-center animate-pulse text-stone-100 mt-6 mx-3">All the links are on the top-right of this webpage.</div>
                 <div className="md:grid md:gap-0 md:grid-cols-2 items-baseline">
 
                     <div className="aspect-video">
                         <iframe src="https://www.youtube.com/embed/_xss5DtfvIk?si=3Rv6JfU-hy39aOzc" title="YouTube video player"
-                            target="_blank"
-                            frameborder="0"
-                            allowfullscreen
+                            allowFullScreen
                             class="mt-12 mx-auto md:w-4/5 md:h-4/5 md:ml-28 h-auto"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
                         </iframe>
@@ -47,7 +46,7 @@ const About = ({ handlePageChange }) => {
                             className="picture rounded-lg md:mx-auto md:w-2/3 px-6 pb-5"
                         />
                     </div>
-                    <div className="text-lg text-right animate-pulse text-stone-100">All the links are on the top-right of this webpage.</div>
+
                 </div>
             </div>
         </div >

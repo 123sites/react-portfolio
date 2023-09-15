@@ -1,16 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import resume from "../../images/resume.pdf";
 
-// Function for form reset
-function handleSubmit(e) {
-  setTimeout(() => {
-    e.target.reset();
-  }, 3000);
-}
-
-// // Contact form - Later redo with my information.
 const Contact = (props) => {
-  const [input, setInput] = useState('');
+
   return (
     <div
       name="contact"
