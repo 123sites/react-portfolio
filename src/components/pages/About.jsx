@@ -33,13 +33,13 @@ const About = ({ handlePageChange }) => {
                 <div className="md:grid md:gap-0 md:grid-cols-2 items-baseline">
 
                     <div className="aspect-video">
-                        <iframe src="https://www.youtube.com/embed/MuiZKK-X4xU" title="YouTube video player"
+                        <iframe src="https://www.youtube.com/embed/_xss5DtfvIk?si=3Rv6JfU-hy39aOzc" title="YouTube video player"
+                            target="_blank"
                             frameborder="0"
                             allowfullscreen
                             class="mt-12 mx-auto md:w-4/5 md:h-4/5 md:ml-28 h-auto"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
                         </iframe>
-
                     </div>
                     <div className="flex flex-end focus:opacity-100">
                         <img src={Avatar}
@@ -47,6 +47,7 @@ const About = ({ handlePageChange }) => {
                             className="picture rounded-lg md:mx-auto md:w-2/3 px-6 pb-5"
                         />
                     </div>
+                    <div className="text-lg text-right animate-pulse text-stone-100">All the links are on the top-right of this webpage.</div>
                 </div>
             </div>
         </div >
